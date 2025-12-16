@@ -1,0 +1,31 @@
+:root{
+    --primary : teal;
+    --secondary: magenta;
+    --secondary-var: purple;
+    --accent: yellow;
+    --basicdark: indigo;
+    --basiclight: whitesmoke;
+}
+
+.container{
+    display: flex;
+    gap: 40px
+}
+p{
+    max-width: 60ch;
+}
+header img{
+    border: 1px solid var(--basicdark);
+}
+li{
+    list-style-type: none;
+}
+a{
+    border: 2px solid var(--basicdark);
+    background-color: var(--secondary);
+}
+a.active{
+    background-color: var(--secondary-var);
+    color: var(--basiclight);
+    border: 2px solid var(--basiclight);
+}
