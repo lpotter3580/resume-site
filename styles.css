@@ -1,40 +1,118 @@
 :root{
     --primary : teal;
     --secondary: magenta;
-    --secondary-var: purple;
+    --secondary-var: goldenrod;
     --accent: yellow;
     --basicdark: indigo;
     --basiclight: whitesmoke;
+    --footer: black;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(typefaces/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: miriam-libre;
+    src: url(typefaces/MiriamLibre-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: fira-sans;
+    src: url(typefaces/FiraSansExtraCondensed-ExtraLight.ttf);
 }
 
 body{
     background-color: var(--primary);
     color: var(--basicdark);
-    max-width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
     align-content: center;
+}
+main{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-bottom: 30px;
+}
+
+.open-space{
+    padding-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 275px;
+    font-size: 28pt;
+    border: none;
 }
 
 .container{
     display: flex;
     gap: 40px
 }
+h1, h2{
+    font-family: miriam-libre;
+}
+h3{
+    font-family: roboto;
+    font-size: 20pt;
+}
 p{
     max-width: 60ch;
+    font-family: fira-sans;
+    font-size: 20pt;
+}
+section{
+    border-top: 2px solid var(--basicdark);
+}
+aside{
+    border-top: 2px solid var(--basicdark);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header{
+    background-color: var(--secondary);
+    padding: 0;
 }
 header img{
     border: 1px solid var(--basicdark);
 }
+header > a{
+    margin: 15px;
+    border-left: 2px solid var(--basicdark);
+    border-bottom: 2px solid var(--basicdark);
+    height: 102px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+nav{
+    padding: 0;
+    display: flex;
+}
 li{
     list-style-type: none;
 }
-a{
+ul.container{
+    align-items: center;
+    padding: 0;
+    gap: 200px;
+}
+ul a{
     border: 2px solid var(--basicdark);
-    background-color: var(--secondary);
+    background-color: var(--accent);
+    font-family: fira-sans;
+    font-size: 18pt;
+    padding: 25px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
 }
 a.active{
     background-color: var(--secondary-var);
     color: var(--basiclight);
     border: 2px solid var(--basiclight);
+}
+footer{
+    background-color: var(--footer);
+    height: 200px;
+}
+footer nav, footer h3{
+    padding-left: 10vw;
 }
