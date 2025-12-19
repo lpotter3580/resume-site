@@ -1,9 +1,9 @@
 :root{
-    --primary : teal;
-    --secondary: magenta;
-    --secondary-var: goldenrod;
-    --accent: yellow;
-    --basicdark: indigo;
+    --primary : #664E88;
+    --secondary: #63B4B8;
+    --accent-var: #37ae95;
+    --accent: #A9E4D7;
+    --basicdark: #4B3869;
     --basiclight: whitesmoke;
     --footer: black;
 }
@@ -24,7 +24,7 @@
 
 body{
     background-color: var(--primary);
-    color: var(--basicdark);
+    color: var(--basiclight);
     margin: 0;
     align-content: center;
 }
@@ -103,9 +103,10 @@ ul a{
     width: 100px;
     display: inline-block;
     text-align: center;
+    color: var(--basicdark)
 }
 a.active{
-    background-color: var(--secondary-var);
+    background-color: var(--accent-var);
     color: var(--basiclight);
     border: 2px solid var(--basiclight);
 }
