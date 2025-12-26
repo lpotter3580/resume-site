@@ -47,12 +47,24 @@ main{
     display: flex;
     gap: 40px
 }
-h1, h2{
+a{
+    color: var(--basiclight);
+}
+ nav a{
+    color: var(--basiclight);
+    font-family: fira-sans;
+    font-size: 16pt;
+}
+a.link:hover{
+    color: bisque;
+}
+h1, h2, h3{
     font-family: miriam-libre;
 }
-h3{
+h4{
     font-family: roboto;
     font-size: 20pt;
+    color: var(--basiclight);
 }
 p{
     max-width: 60ch;
@@ -66,6 +78,7 @@ aside{
     border-top: 2px solid var(--basicdark);
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-left: 20px;
 }
 header{
     background-color: var(--secondary);
@@ -86,9 +99,14 @@ nav{
     padding: 0;
     display: flex;
 }
+nav.vertical{
+    flex-direction: column;
+    margin-bottom: 35px;
+}
 li{
     list-style-type: none;
 }
+
 ul.container{
     align-items: center;
     padding: 0;
@@ -100,20 +118,26 @@ ul a{
     font-family: fira-sans;
     font-size: 18pt;
     padding: 25px;
-    width: 100px;
+    width: 250px;
     display: inline-block;
     text-align: center;
     color: var(--basicdark)
 }
 a.active{
     background-color: var(--accent-var);
-    color: var(--basiclight);
+    color: var(--basicdark);
     border: 2px solid var(--basiclight);
 }
+
 footer{
     background-color: var(--footer);
-    height: 200px;
+    height: 350px;
 }
-footer nav, footer h3{
-    padding-left: 10vw;
+footer > *{
+    margin-left: 10vw;
+    padding-left: 15px;
+    border-left: 2px solid var(--basiclight);
+}
+i{
+    margin-right: 5px;
 }
