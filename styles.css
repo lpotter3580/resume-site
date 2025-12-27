@@ -1,8 +1,8 @@
 :root{
     --primary : #664E88;
-    --secondary: #63B4B8;
-    --accent-var: #37ae95;
-    --accent: #A9E4D7;
+    --secondary: #587D71;
+    --tertiary: #a5c0b7;
+    --accent: gray;
     --basicdark: #4B3869;
     --basiclight: whitesmoke;
     --footer: black;
@@ -58,8 +58,13 @@ a{
 a.link:hover{
     color: bisque;
 }
-h1, h2, h3{
+h1{
     font-family: miriam-libre;
+    text-shadow: 4px 4px var(--accent);
+}
+h2, h3{
+    font-family: miriam-libre;
+    text-shadow: 2px 2px var(--accent);
 }
 h4{
     font-family: roboto;
@@ -114,7 +119,7 @@ ul.container{
 }
 ul a{
     border: 2px solid var(--basicdark);
-    background-color: var(--accent);
+    background-color: var(--tertiary);
     font-family: fira-sans;
     font-size: 18pt;
     padding: 25px;
@@ -124,9 +129,9 @@ ul a{
     color: var(--basicdark)
 }
 a.active{
-    background-color: var(--accent-var);
-    color: var(--basicdark);
-    border: 2px solid var(--basiclight);
+    background-color: var(--basicdark);
+    color: var(--tertiary);
+    border: 2px solid var(--tertiary);
 }
 
 footer{
