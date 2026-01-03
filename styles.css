@@ -76,6 +76,9 @@ p{
     font-family: fira-sans;
     font-size: 20pt;
 }
+img{
+    object-fit: contain;
+}
 section{
     border-top: 2px solid var(--basicdark);
 }
@@ -83,7 +86,7 @@ aside{
     border-top: 2px solid var(--basicdark);
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 header{
     background-color: var(--secondary);
@@ -126,7 +129,8 @@ ul a{
     width: 250px;
     display: inline-block;
     text-align: center;
-    color: var(--basicdark)
+    color: var(--basicdark);
+    border-radius: 5px;
 }
 a.active{
     background-color: var(--basicdark);
