@@ -171,6 +171,9 @@ i{
     .open-space{
         padding-left: 150px;
     }
+    article.container{
+        flex-direction: column;
+    }
 }
 @media(max-width: 900px){
     ul a{
