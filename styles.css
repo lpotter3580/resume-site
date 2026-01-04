@@ -150,6 +150,13 @@ footer > *{
 i{
     margin-right: 5px;
 }
+article img{
+    flex-shrink: 1;
+    overflow:hidden;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
 
 @media(max-width: 1500px){
     ul.container{
@@ -253,5 +260,9 @@ i{
     }
     .open-space{
         padding-left: 0;
+        padding-top: 0;
+    }
+    header{
+        flex-direction: row;
     }
 }
