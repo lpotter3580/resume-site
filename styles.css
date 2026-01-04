@@ -150,3 +150,105 @@ footer > *{
 i{
     margin-right: 5px;
 }
+
+@media(max-width: 1500px){
+    ul.container{
+        gap: 100px
+    }
+}
+@media(max-width: 1300px){
+    ul.container{
+        gap: 50px
+    }
+    ul a{
+        width: 200px;
+    }
+}
+@media(max-width: 1050px){
+    ul a{
+        width: 150px;
+    }
+    .open-space{
+        padding-left: 150px;
+    }
+}
+@media(max-width: 900px){
+    ul a{
+        width: 100px;
+        font-size: 16pt;
+    }
+    p{
+        font-size: 16pt;
+    }
+    .open-space{
+        padding-left: 100px;
+        font-size: 26pt;
+    }
+}
+@media(max-width: 750px){
+    header,  nav ul{
+        flex-direction: column;
+    }
+    header{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer nav ul{
+        flex-direction: row;
+    }
+    ul.container{
+        gap: 20px;
+    }
+    main nav ul{
+        flex-direction: row;
+    }
+    .open-space{
+        padding-left: 25px;
+    }
+    .sidebar{
+        display: flex;
+        flex-direction: row;
+    }
+    aside.container{
+        flex-direction: column;
+    }
+    main{
+        padding-right: 5px;
+        padding-left: 15px;
+    }
+}
+@media(max-width: 600px){
+    ul a{
+        font-size: 14pt;
+        padding: 10px;
+        text-wrap: nowrap;
+    }
+    p{
+        font-size: 14pt;
+    }
+    aside{
+        margin: 0px;
+    }
+}
+
+@media(max-width: 500px){
+    nav ul, footer nav ul{
+        flex-direction: column;
+    }
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+    }
+    header.container{
+        gap: 0px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    footer{
+        height: 450px;
+    }
+    .open-space{
+        padding-left: 0;
+    }
+}
