@@ -52,28 +52,28 @@ a{
 }
  nav a{
     color: var(--basiclight);
-    font-family: fira-sans;
+    font-family: fira-sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16pt;
 }
 a.link:hover{
     color: bisque;
 }
 h1{
-    font-family: miriam-libre;
+    font-family: miriam-libre, Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 4px 4px var(--accent);
 }
 h2, h3{
-    font-family: miriam-libre;
+    font-family: miriam-libre, Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 2px 2px var(--accent);
 }
 h4{
-    font-family: roboto;
+    font-family: roboto, Arial, Helvetica, sans-serif;
     font-size: 20pt;
     color: var(--basiclight);
 }
 p{
     max-width: 60ch;
-    font-family: fira-sans;
+    font-family: fira-sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20pt;
 }
 img{
