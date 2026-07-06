@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <NavBar activeLink={"Resume"}/>
+      <NavBar activeLink={"Home"}/>
       <main>
       <h1>Heading 1</h1>
       <h2>Heading 2</h2>
