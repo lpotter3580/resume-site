@@ -6,7 +6,6 @@ import NavLinksData from "../data/links.json";
 export default function NavBar ({activeLink}) {
 
     const imgUrl = new URL('../assets/logan1.jpg', import.meta.url).href;
-    document.getElementById('icon').src = imgUrl;
 
     const linkDataArr = [];
     Object.keys(NavLinksData).forEach(key => linkDataArr.push({href: NavLinksData[key].href, text: NavLinksData[key].text, icon:NavLinksData[key].icon, newTab: NavLinksData[key].newTab, active: NavLinksData[key].active}));
@@ -26,7 +25,7 @@ export default function NavBar ({activeLink}) {
     return (
         <>
         <header class="container">
-            <a href="#"><img alt="Logan Potter" id="icon" onclick="advanceImage()"></img></a>
+            <a href="#"><img alt="Logan Potter" src={imgUrl} id="icon" onclick="advanceImage()"></img></a>
             <nav>
                 <ul class="container">
                     {navLinks}
