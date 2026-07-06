@@ -25,7 +25,10 @@ ul{
     padding: 0;
     gap: 200px;
 }
-
+nav{
+    padding: 0;
+    display: flex;
+}
 
 /* LinkButton */
 
@@ -54,6 +57,10 @@ a.active{
 
 a:hover{
     color: bisque;
+}
+
+.icon{
+  margin-right: 10px;
 }
 
 

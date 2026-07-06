@@ -14,7 +14,7 @@ export default function LinkButton({text, href, icon, newTab, active}) {
     }
 
     if(text === "Resume"){
-        icon = <FaDownload/>;
+        icon = <FaDownload class="icon"/>;
     }
 
     return (
