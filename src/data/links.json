@@ -2,22 +2,16 @@
     {
         "href":"#",
         "text":"Home",
-        "icon":null,
-        "newTab":false, 
-        "active":false
+        "external":false
     },
     {
         "href":"../assets/lpotter-resume.pdf",
         "text":"Resume",
-        "icon": "faDownload",
-        "newTab":true, 
-        "active":false
+        "external":true
     },
     {
         "href":"https://www.gananda.org",
         "text":"About Me",
-        "icon":null,
-        "newTab":false, 
-        "active":false
+        "external":false
     }
 ]

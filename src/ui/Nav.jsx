@@ -8,19 +8,18 @@ export default function NavBar ({activeLink}) {
     const imgUrl = new URL('../assets/logan1.jpg', import.meta.url).href;
 
     const linkDataArr = [];
-    Object.keys(NavLinksData).forEach(key => linkDataArr.push({href: NavLinksData[key].href, text: NavLinksData[key].text, icon:NavLinksData[key].icon, newTab: NavLinksData[key].newTab, active: NavLinksData[key].active}));
+    Object.keys(NavLinksData).forEach(key => linkDataArr.push({href: NavLinksData[key].href, text: NavLinksData[key].text, icon:NavLinksData[key].icon, external: NavLinksData[key].external}));
     
     for(let i = 0; i < linkDataArr.length; i++){
         if(linkDataArr[i].text === activeLink){
             linkDataArr[i].href = "#";
-            linkDataArr[i].active = true;
-            linkDataArr[i].newTab = false;
+            linkDataArr[i].external = false;
             break;
         }
     }
 
     const navLinks = linkDataArr.map(button =>
-        <li key={button.text}><LinkButton href={button.href} text={button.text} newTab={button.newTab} active={button.active}/></li>
+        <li key={button.text}><LinkButton href={button.href} text={button.text} external={button.external}/></li>
     );
     return (
         <>

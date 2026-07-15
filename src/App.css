@@ -40,7 +40,7 @@ nav{
 
 /* LinkButton */
 
-a.linkButton{
+li a{
     border: 2px solid var(--border);
     background-color: var(--accent-bg);
     font-family: fira-sans;
@@ -52,12 +52,12 @@ a.linkButton{
     color: var(--border);
     border-radius: 5px;
 }
-a.linkButton:hover{
+li a:hover{
   background-color: var(--accent);
   color: var(--text)
 }
 
-a.active{
+li a.active{
     background-color: var(--border);
     color: var(--accent-bg);
     border: 2px solid var(--accent-bg);
