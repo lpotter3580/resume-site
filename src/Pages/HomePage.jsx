@@ -1,6 +1,22 @@
 import ProjectCard from "../ui/ProjectCard";
+import ProjectData from "../data/projects.json"
+
+
+function generateProjects(){
+    const ProjectDataArr = [];
+    Object.keys(ProjectData).forEach(key => ProjectDataArr.push({title: ProjectData[key].title, description: ProjectData[key].description, startDate:ProjectData[key].startDate, endDate: ProjectData[key].endDate, role: ProjectData[key].role, skillsList: ProjectData[key].skillsList, imgUrl: ProjectData[key].imgUrl, link: ProjectData[key].link}));
+    
+    const Projects = ProjectDataArr.map(card =>
+        <li key={card.title}><ProjectCard title={card.title} description={card.description} startDate={card.startDate} endDate={card.endDate} role={card.role} skillsList={card.skillsList} imgUrl={card.imgUrl} link={card.link}/></li>
+    );
+
+    return Projects
+}
 
 export default function HomePage(){
+
+    let projects = generateProjects();
+
     return (
     <main>
         <section class="bubble spaceAbove">
@@ -16,7 +32,9 @@ export default function HomePage(){
 
         <article class="spaceAbove">
             <h2 class="whiteText">Projects</h2>
-            <ProjectCard></ProjectCard>
+            <ul>
+                {projects}
+            </ul>
         </article>
     </main>
     );

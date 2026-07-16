@@ -40,7 +40,7 @@ nav{
 
 /* LinkButton */
 
-li a{
+li > a{
     border: 2px solid var(--border);
     background-color: var(--accent-bg);
     font-family: fira-sans;
@@ -51,13 +51,14 @@ li a{
     text-align: center;
     color: var(--border);
     border-radius: 5px;
+    cursor: pointer;
 }
-li a:hover{
+li > a:hover{
   background-color: var(--accent);
   color: var(--text)
 }
 
-li a.active{
+li > a.active{
     background-color: var(--border);
     color: var(--accent-bg);
     border: 2px solid var(--accent-bg);
@@ -65,6 +66,10 @@ li a.active{
 
 a:hover{
     color: bisque;
+    cursor: pointer;
+}
+h3 > a{
+    text-decoration: underline;
 }
 
 .icon{
@@ -89,5 +94,8 @@ main{
 
 .spaceAbove{
     margin-top: 12ch;
+}
+.right{
+    float:right;
 }
 

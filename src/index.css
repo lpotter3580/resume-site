@@ -97,6 +97,17 @@ h2 {
   color: var(--text-h);
   text-shadow: 4px 4px var(--dropshadow);
 }
+h3{
+  font-family: var(--heading);
+  color: var(--text-h);
+  text-shadow: 2px 2px var(--dropshadow);
+  font-size: xx-large;
+}
+h4{
+  font-size: larger;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
 
 h1 {
   font-size: 108px;

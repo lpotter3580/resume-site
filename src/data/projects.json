@@ -1,0 +1,32 @@
+[
+    {
+        "title":"echoes Website",
+        "description":"echoes is a Vertically Integrated Project at RIT. I am a web developer, meaning I help add new features to their website and help fix bugs as they come up. I work part time for course credit and can work on whatever part of the website I want to. This past semester, I created their brand guide, a page to show off current opportunities in the project, helped implement images into their game pages, and updated the web documentation.",
+        "startDate":"Jan 2026",
+        "endDate":"Present",
+        "role":"Web Designer/Developer",
+        "skillsList":"Svelte, Tailwind CSS, JS, Vite, NodeJS, Agile Methodology",
+        "imgUrl":"/echoes-site.png",
+        "link":"https://www.echoes-vip.org"
+    },
+    {
+        "title":"Portfolio Website",
+        "description":"This site was created as a project to help me teach myself how to use React and style websites better. I built the entire thing from scratch using react with vite and javascript. Eventually, I hope to add a Games section to show off more personal projects made in react.",
+        "startDate":"Dec 2025",
+        "endDate":"Present",
+        "role":"Creator",
+        "skillsList":"React, JS, Vite, React-Router, CSS",
+        "imgUrl":"",
+        "link":"#"
+    },
+    {
+        "title":"echoes Website 3",
+        "description":"echoes is a Vertically Integrated Project at RIT. I am a web developer, meaning I help add new features to their website and help fix bugs as they come up. I work part time for course credit and can work on whatever part of the website I want to. This past semester, I created their brand guide, a page to show off current opportunities in the project, helped implement images into their game pages, and updated the web documentation.",
+        "startDate":"Jan 2026",
+        "endDate":"Present",
+        "role":"Web Designer/Developer",
+        "skillsList":"Svelte, Tailwind CSS, JS, Vite, NodeJS, Agile Methodology",
+        "imgUrl":"/echoes-site.png",
+        "link":"https://www.echoes-vip.org"
+    }
+]

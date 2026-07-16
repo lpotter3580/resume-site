@@ -5,7 +5,7 @@ import NavLinksData from "../data/links.json";
 
 export default function NavBar ({activeLink}) {
 
-    const imgUrl = new URL('../assets/logan1.jpg', import.meta.url).href;
+    const imgUrl = new URL('/logan1.jpg', import.meta.url).href;
 
     const linkDataArr = [];
     Object.keys(NavLinksData).forEach(key => linkDataArr.push({href: NavLinksData[key].href, text: NavLinksData[key].text, icon:NavLinksData[key].icon, external: NavLinksData[key].external}));
