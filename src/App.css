@@ -71,4 +71,23 @@ a:hover{
   margin-right: 10px;
 }
 
+/* Home Page */
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+.bubble{
+    background: var(--accent);
+    border: 2px solid var(--accent-bg);
+    border-radius: 75px;
+    padding: 45px;
+}
+
+.spaceAbove{
+    margin-top: 12ch;
+}
 

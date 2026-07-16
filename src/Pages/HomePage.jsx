@@ -1,12 +1,23 @@
+import ProjectCard from "../ui/ProjectCard";
 
 export default function HomePage(){
     return (
     <main>
-        <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, eveniet. Dolores itaque reprehenderit iste blanditiis consequuntur incidunt distinctio perferendis illum nihil tempora necessitatibus esse culpa laborum sequi non, ipsam sit!</p>
+        <section class="bubble spaceAbove">
+            <h1>Hey! I'm Logan!</h1>
+            <p>I am a web designer/developer and graphic designer.<br/>
+            I am also a New Media Interactive Development student at RIT.<br/>
+            <br/>
+            I combine visual communication design and technical web development skills to create<br/>
+            fluid user experiences that are easy to use and pleasant to look at.<br/><br/>
+            Scroll down to see some of my recent projects!
+            </p>
+        </section>
+
+        <article class="spaceAbove">
+            <h2 class="whiteText">Projects</h2>
+            <ProjectCard></ProjectCard>
+        </article>
     </main>
     );
 }
