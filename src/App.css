@@ -40,7 +40,7 @@ nav{
 
 /* LinkButton */
 
-li > a{
+li > a, .linkButton{
     border: 2px solid var(--border);
     background-color: var(--accent-bg);
     font-family: fira-sans;
@@ -53,12 +53,12 @@ li > a{
     border-radius: 5px;
     cursor: pointer;
 }
-li > a:hover{
+li > a:hover, .linkButton:hover{
   background-color: var(--accent);
   color: var(--text)
 }
 
-li > a.active{
+li > a.active, .linkButton:hover{
     background-color: var(--border);
     color: var(--accent-bg);
     border: 2px solid var(--accent-bg);
@@ -68,8 +68,21 @@ a:hover{
     color: bisque;
     cursor: pointer;
 }
-h3 > a{
-    text-decoration: underline;
+a:visited{
+    color:var(--text);
+    text-decoration: none;
+}
+h3{
+    text-decoration: none;
+}
+a:visited:hover{
+    color:bisque;
+}
+a > h3{
+    /* text-decoration: underline; */
+    &:hover{
+        color:bisque;
+    }
 }
 
 .icon{
@@ -90,12 +103,70 @@ main{
     border: 2px solid var(--accent-bg);
     border-radius: 75px;
     padding: 45px;
+    transition: transform 0.1s;
+}
+.linkButton{
+    transition: transform 0.1s;
+}
+.bubble:hover, .linkButton:hover{
+    transform: scale(1.05);
 }
 
 .spaceAbove{
-    margin-top: 12ch;
+    margin-top: 50px;
 }
 .right{
     float:right;
 }
+img{
+    border: 2px solid var(--accent-bg);
+    border-radius: 5px;
+}
+.project-size{
+    height: 240px;
+    width:300px;
+}
+.gap > *{
+    margin-bottom: 35px;
+}
+.buttons{
+    margin-top: 35px;
+    justify-content: center;
+    align-content: space-between;
+    width:100%;
+}
 
+
+/* footer */
+
+nav.vertical{
+    flex-direction: column;
+    margin-bottom: 35px;
+    text-align: left;
+    
+}
+footer h4, footer nav > a, footer nav > a:visited{
+    color: var(--accent);
+
+}
+footer ul, footer nav a, footer h4{
+    margin-left: auto ;
+    margin-right: auto;
+    width: 80%;
+}
+footer nav a, footer h4{
+    padding-left: 5px;
+    border-left: 4px solid var(--accent);
+    transition: 0.1s;
+    &:hover{
+        transform:translateX(5px);
+    }
+}
+footer h4{
+    margin-top: 25px;
+    text-align: left;
+    
+}
+section.bubble{
+    margin-bottom: 35px;
+}

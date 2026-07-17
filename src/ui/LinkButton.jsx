@@ -1,6 +1,6 @@
 import { useState } from "react";
 import '../App.css';
-import { FaDownload } from "react-icons/fa";
+import { FaDownload, FaEnvelope } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default function LinkButton({text, href, external}) {
@@ -8,6 +8,9 @@ export default function LinkButton({text, href, external}) {
         let icon = "";
         if(text === "Resume"){
             icon = <FaDownload class="icon"/>;
+        }
+        if(text === "Email me!"){
+            icon = <FaEnvelope class="icon"/>;
         }
         return (
             <>
@@ -22,7 +25,7 @@ export default function LinkButton({text, href, external}) {
         } 
         return (
             <>
-                <Link to={linkText}>{text}</Link>
+                <Link to={linkText} class="linkButton">{text}</Link>
                 
             </>
         )

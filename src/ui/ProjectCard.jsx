@@ -1,11 +1,11 @@
-export default function ProjectCard({title, description, startDate, endDate, role, skillsList, imageUrl, link}){
+export default function ProjectCard({title, description, startDate, endDate, role, skillsList, imgUrl, link}){
     return (
         <>
-        <section class="bubble spaceAbove container">
-            <img href={imageUrl} alt="Alt text placeholder"></img>
+        <section class="bubble container">
+            <img src={imgUrl} alt="Alt text placeholder" class="project-size"></img>
             <div>
                 <div>
-                    <h3><a src={link}>{title}</a></h3>
+                    <a href={link} target="_blank"><h3>{title}</h3></a>
                     <h4 class="right">{skillsList}</h4>
                     <h4>{role}</h4>
                     <h4>{startDate} - {endDate}</h4>

@@ -1,5 +1,6 @@
 import ProjectCard from "../ui/ProjectCard";
-import ProjectData from "../data/projects.json"
+import ProjectData from "../data/projects"
+import LinkButton from "../ui/LinkButton";
 
 
 function generateProjects(){
@@ -26,13 +27,19 @@ export default function HomePage(){
             <br/>
             I combine visual communication design and technical web development skills to create<br/>
             fluid user experiences that are easy to use and pleasant to look at.<br/><br/>
-            Scroll down to see some of my recent projects!
+            Scroll down to see some of my recent projects, send me an email, or look at my resume!
             </p>
+            <div class="container buttons">
+                <LinkButton text="Email me!" href="mailto:lpotter3580@gmail.com" external={true}/>
+                <LinkButton text="Resume" href="/lpotter-resume.pdf" external={true}/>
+            </div>
         </section>
+
+        
 
         <article class="spaceAbove">
             <h2 class="whiteText">Projects</h2>
-            <ul>
+            <ul class="gap">
                 {projects}
             </ul>
         </article>
