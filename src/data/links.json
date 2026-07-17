@@ -1,0 +1,17 @@
+[
+    {
+        "href":"#",
+        "text":"Home",
+        "external":false
+    },
+    {
+        "href":"../assets/lpotter-resume.pdf",
+        "text":"Resume",
+        "external":true
+    },
+    {
+        "href":"",
+        "text":"About Me",
+        "external":false
+    }
+]
