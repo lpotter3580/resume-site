@@ -36,10 +36,14 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  
   @media (max-width: 1024px) {
     font-size: 16px;
   }
+}
+.whiteText{
+  color:var(--accent-bg);
+  text-shadow: 4px 4px var(--text);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -48,7 +52,7 @@
     --text-h: #A9E4D7;
     --dropshadow: #664E88;
     --bg: #285557;
-    --border: #40888c;
+    --border: #38777a;
     --accent: #4B3869;
     --accent-bg: #290052;
     --footer-bg: black;
@@ -56,6 +60,10 @@
     --sans: fira-sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
     --heading: miriam-libre, Verdana, Geneva, Tahoma, sans-serif;;
     --mono: ui-monospace, Consolas, monospace;
+  }
+  .whiteText{
+    color:var(--accent-bg);
+    text-shadow: 4px 4px var(--border);
   }
 
   #social .button-icon {
@@ -66,10 +74,7 @@
 body {
   margin: 0;
 }
-.whiteText{
-  color:var(--accent-bg);
-  text-shadow: 4px 4px var(--text);
-}
+
 #root {
   max-width: 100%;
   margin: 0 auto;
@@ -111,7 +116,7 @@ h2 {
   letter-spacing: -0.24px;
   margin: 0 0 8px;
   @media (max-width: 1024px) {
-    font-size: 20px;
+    font-size: 36px;
   }
   border-bottom: 2px solid var(--border);
 }
@@ -128,6 +133,8 @@ h4{
   font-size: larger;
   margin-top: 0px;
   margin-bottom: 10px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 p {

@@ -8,6 +8,7 @@ ul.container{
     display: flex;
     gap: 40px
 }
+
 /* NavBar */
 
 header{
@@ -117,6 +118,7 @@ main{
 }
 .right{
     float:right;
+    
 }
 img{
     border: 2px solid var(--accent-bg);
@@ -147,7 +149,6 @@ nav.vertical{
 }
 footer h4, footer nav > a, footer nav > a:visited{
     color: var(--accent);
-
 }
 footer ul, footer nav a, footer h4{
     margin-left: auto ;
@@ -169,4 +170,55 @@ footer h4{
 }
 section.bubble{
     margin-bottom: 35px;
+}
+@media (prefers-color-scheme: dark) {
+    footer h4, footer nav > a, footer nav > a:visited{
+        color: var(--text);
+    }
+    footer nav a, footer h4{
+        border-left: 4px solid var(--text);
+    }
+}
+@media(max-width: 1500px){
+  ul.container{
+    gap: 40px;
+  }
+  .right{
+    float: none;
+  }
+}
+@media(max-width: 1180px){
+  li > a, .linkButton{
+    padding-left: 0;
+    padding-right: 0;
+    width: 150px;
+  }
+  h1{
+    font-size: 72px;
+    margin-bottom: 50px;
+  }
+  .project-size{
+    height: 200px;
+    width:250px;
+    }
+    .small{
+        visibility: visible;
+    }
+    .large{
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+}
+@media(min-width: 1180px){
+    .small{
+        visibility: hidden;
+        size: 0;
+        height: 0;
+        width: 0;
+    }
+    .large{
+        visibility: visible;
+        
+    }
 }
