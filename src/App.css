@@ -49,20 +49,20 @@ li > a, .linkButton{
     width: 250px;
     display: inline-block;
     text-align: center;
-    color: var(--border);
+    color: var(--text);
     border-radius: 5px;
     cursor: pointer;
 }
 li > a:hover, .linkButton:hover{
   background-color: var(--accent);
-  color: var(--text)
+  /* color: var(--text) */
 }
 
-li > a.active, .linkButton:hover{
+/* li > a.active, .linkButton:hover{
     background-color: var(--border);
     color: var(--accent-bg);
     border: 2px solid var(--accent-bg);
-}
+} */
 
 a:hover{
     color: bisque;
