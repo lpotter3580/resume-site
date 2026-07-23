@@ -8,7 +8,7 @@ function generateProjects(){
     Object.keys(ProjectData).forEach(key => ProjectDataArr.push({title: ProjectData[key].title, description: ProjectData[key].description, startDate:ProjectData[key].startDate, endDate: ProjectData[key].endDate, role: ProjectData[key].role, skillsList: ProjectData[key].skillsList, imgUrl: ProjectData[key].imgUrl, link: ProjectData[key].link}));
     
     const Projects = ProjectDataArr.map(card =>
-        <li key={card.title}><ProjectCard title={card.title} description={card.description} startDate={card.startDate} endDate={card.endDate} role={card.role} skillsList={card.skillsList} imgUrl={card.imgUrl} link={card.link}/></li>
+        <li key={card.title}><ProjectCard title={card.title} description={card.description} startDate={card.startDate} endDate={card.endDate} role={card.role} skillsList={"Skills: " + card.skillsList} imgUrl={card.imgUrl} link={card.link}/></li>
     );
 
     return Projects
