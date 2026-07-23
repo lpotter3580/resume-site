@@ -26,6 +26,9 @@ header > a{
     padding-left: 10px;
     padding-bottom: 10px;
 }
+ul.list li{
+    list-style-type: unset;
+}
 li{
     list-style-type: none;
 }
@@ -95,6 +98,8 @@ a > h3{
 main{
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
+    margin-bottom: 30px;
     text-align: left;
 }
 
@@ -116,10 +121,6 @@ main{
 .spaceAbove{
     margin-top: 50px;
 }
-.right{
-    float:right;
-    
-}
 img{
     border: 2px solid var(--accent-bg);
     border-radius: 5px;
@@ -127,6 +128,7 @@ img{
 .project-size{
     height: 240px;
     width:300px;
+    margin-bottom: 25px;
 }
 .gap > *{
     margin-bottom: 35px;
@@ -171,6 +173,12 @@ footer h4{
 section.bubble{
     margin-bottom: 35px;
 }
+.right{
+    text-align: right;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
 @media (prefers-color-scheme: dark) {
     footer h4, footer nav > a, footer nav > a:visited{
         color: var(--text);
@@ -183,42 +191,59 @@ section.bubble{
   ul.container{
     gap: 40px;
   }
-  .right{
-    float: none;
-  }
 }
 @media(max-width: 1180px){
-  li > a, .linkButton{
-    padding-left: 0;
-    padding-right: 0;
-    width: 150px;
-  }
-  h1{
-    font-size: 72px;
-    margin-bottom: 50px;
-  }
-  .project-size{
-    height: 200px;
-    width:250px;
+    li > a, .linkButton{
+        padding-left: 0;
+        padding-right: 0;
+        width: 150px;
+    }
+    h1{
+        font-size: 72px;
+        margin-bottom: 35px;
+    }
+    .project-size{
+        height: 200px;
+        width:250px;
     }
     .small{
-        visibility: visible;
+        display: unset;
     }
     .large{
-        visibility: hidden;
-        height: 0;
-        width: 0;
+        display: none;
+    }
+    h4{
+        font-size: x-large;
+    }
+    ul.list li{
+        padding-bottom: 20px;
+    }
+}
+@media(max-width: 800px){
+    ul.list li{
+        padding-bottom: 8px;
+    }
+    h1{
+        font-size: 56px;
     }
 }
 @media(min-width: 1180px){
     .small{
-        visibility: hidden;
-        size: 0;
-        height: 0;
-        width: 0;
+        display: none;
     }
     .large{
-        visibility: visible;
-        
+        display: unset;   
+    }
+}
+@media(max-width: 625px) {
+    .container{
+        display: unset;
+    }
+    h1{
+        text-wrap: unset;
+        margin-bottom: 20px;
+    }
+    p{
+        margin-bottom: 20px;
     }
 }
