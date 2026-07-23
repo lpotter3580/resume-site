@@ -14,6 +14,10 @@ ul.container{
 header{
     background-color: var(--accent);
     padding: 0;
+    position:fixed;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 5px solid var(--accent-bg);
 }
 header img{
     border: 1px solid var(--border);
@@ -101,6 +105,7 @@ main{
     width: 80%;
     margin-bottom: 30px;
     text-align: left;
+    margin-top: 200px;
 }
 
 
@@ -179,12 +184,44 @@ section.bubble{
 .mb-15{
     margin-bottom: 15px;
 }
+.hamburger-icon{
+    margin: 15px;
+    align-self:flex-end;
+    border: 4px solid var(--border);
+    color: var(--border);
+    border-radius: 10px;
+    &:hover{
+        color: var(--dropshadow);
+        border: 4px solid var(--dropshadow);
+        background-color: var(--border);
+    }
+}
+#hamburgerMenu{
+    display: none;
+    position:fixed;
+    background-color: var(--accent);
+    border-bottom: 5px solid var(--accent-bg);
+    width:100%;
+    transform: translateY(152px);
+    margin: 0;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 15px;
+}
 @media (prefers-color-scheme: dark) {
     footer h4, footer nav > a, footer nav > a:visited{
         color: var(--text);
     }
     footer nav a, footer h4{
         border-left: 4px solid var(--text);
+    }
+}
+@media(min-width: 1180px){
+    .small{
+        display: none;
+    }
+    .large{
+        display: unset;   
     }
 }
 @media(max-width: 1500px){
@@ -219,6 +256,17 @@ section.bubble{
         padding-bottom: 20px;
     }
 }
+@media(min-width: 800px){
+    .desktop{
+        display: flex;
+    }
+    .mobile{
+        display: none;
+    }
+    #hamburgerMenu{
+        display: none !important;
+    }
+}
 @media(max-width: 800px){
     ul.list li{
         padding-bottom: 8px;
@@ -226,18 +274,23 @@ section.bubble{
     h1{
         font-size: 56px;
     }
-}
-@media(min-width: 1180px){
-    .small{
+    .desktop{
         display: none;
     }
-    .large{
-        display: unset;   
+    .mobile{
+        display: unset;
+    }
+    header.container{
+        justify-content: space-between;
     }
 }
+
 @media(max-width: 625px) {
     .container{
         display: unset;
+    }
+    header.container{
+        display: flex;
     }
     h1{
         text-wrap: unset;
