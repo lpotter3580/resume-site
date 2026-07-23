@@ -287,10 +287,16 @@ section.bubble{
 
 @media(max-width: 625px) {
     .container{
-        display: unset;
+        flex-direction: column;
     }
     header.container{
-        display: flex;
+        flex-direction: row;
+    }
+    footer *.container{
+        align-items: flex-start;
+    }
+    div.container.buttons{
+        align-items: center;
     }
     h1{
         text-wrap: unset;
@@ -298,5 +304,22 @@ section.bubble{
     }
     p{
         margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 500px){
+    p{
+        font-size: large;
+    }
+    .project-size{
+        height: 160px;
+        width: 200px;
+        margin-bottom: 0;
+    }
+}
+@media(max-width:350px){
+    .project-size{
+        height: 120px;
+        width: 150px;
     }
 }

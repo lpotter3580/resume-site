@@ -46,7 +46,6 @@ export default function AboutMe(){
                             </p>
                         </section>
                     </div>
-                    <img src="/logan-full.jpg" alt="Logan in a shirt and tie leaned against a railing" height="900px"/>
                 </article>
             </main>
         </>
