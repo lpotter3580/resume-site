@@ -74,10 +74,13 @@ li > a:hover, .linkButton:hover{
     border: 2px solid var(--accent-light);
 } */
 
-a:hover{
-    color: bisque;
-    cursor: pointer;
+#icon{
+    border: none;
+    margin-left: 12px;
+    margin-right: 12px;
 }
+
+
 a:visited{
     text-decoration: none;
 }
@@ -155,9 +158,7 @@ nav.vertical{
     text-align: left;
     
 }
-footer h4, footer nav > a, footer nav > a:visited{
-    color: var(--accent);
-}
+
 footer ul, footer nav > a, footer h4{
     margin-left: auto ;
     margin-right: auto;
@@ -221,6 +222,16 @@ nav a > *{
     flex-direction: column;
     gap: 15px;
     padding-bottom: 15px;
+}
+a:hover{
+    color: bisque !important;
+    cursor: pointer;
+}
+footer h4, footer nav > a{
+    color: var(--accent);
+}
+footer nav > a:hover{
+    border-color: bisque;
 }
 @media (prefers-color-scheme: dark) {
     footer h4, footer nav > a, footer nav > a:visited{

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function NavBar ({activeLink}) {
 
-    const imgUrl = new URL('/logan1.jpg', import.meta.url).href;
+    const imgUrl = new URL('/logo.png', import.meta.url).href;
 
     let navLinks = getNavLinks();
     return (

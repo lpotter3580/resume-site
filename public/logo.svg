@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #295557;
+      }
+
+      .cls-2 {
+        fill: #322867;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: bevel;
+        stroke-width: .25px;
+      }
+
+      .cls-4 {
+        fill: #332467;
+      }
+
+      .cls-5 {
+        fill: #664e89;
+      }
+
+      .cls-6 {
+        fill: #4b3969;
+      }
+
+      .cls-7 {
+        fill: #62b4b8;
+      }
+    </style>
+  </defs>
+  <g id="logo2">
+    <rect class="cls-6" x="23.03" y="75" width="16.67" height="25"/>
+    <rect class="cls-6" x="39.69" y="8.33" width="50" height="16.67"/>
+    <rect class="cls-6" x="73.03" y="25" width="16.67" height="33.33"/>
+    <rect class="cls-1" x="23.03" y="58.33" width="66.67" height="16.67"/>
+    <rect class="cls-1" x="23.03" y="8.33" width="16.67" height="50"/>
+    <polyline class="cls-6" points="14.69 91.67 23.03 100 23.03 91.67 14.69 91.67"/>
+    <polyline class="cls-6" points="81.36 0 89.69 8.33 81.36 8.33 81.36 0"/>
+    <polygon class="cls-4" points="23.01 99.98 23.03 100 23.05 100 23.05 91.67 23.03 91.67 23.01 99.98"/>
+    <polygon class="cls-2" points="89.62 8.26 89.69 8.33 89.69 8.4 81.36 8.4 81.36 8.26 89.62 8.26"/>
+  </g>
+  <g id="logo1">
+    <rect class="cls-5" x="14.69" y="66.67" width="16.67" height="25"/>
+    <rect class="cls-5" x="31.36" width="50" height="16.67"/>
+    <rect class="cls-5" x="64.69" y="16.67" width="16.67" height="33.33"/>
+    <rect class="cls-7" x="14.69" y="50" width="66.67" height="16.67"/>
+    <rect class="cls-7" x="14.69" width="16.67" height="50"/>
+  </g>
+  <g id="outline">
+    <path class="cls-3" d="M81.36,0H14.69v91.67l8.31,8.31.02.02h16.67v-25h50V8.33L81.36,0ZM39.69,25h25v25h-25v-25Z"/>
+  </g>
+</svg>
