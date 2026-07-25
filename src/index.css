@@ -15,11 +15,12 @@
 :root {
   --text: #290052;
   --text-h: #290052;
-  --dropshadow: #40888c;
-  --bg: #664E88;
-  --border: #4B3869;
+  --primary: #664E88;
+  --primary-shade: #4B3869;
+  --primary-light: #876dab;
   --accent: #63B4B8;
-  --accent-bg: #A9E4D7;
+  --accent-shade: #40888c;
+  --accent-light: #A9E4D7;
   --footer-bg: black;
 
   --sans: fira-sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
@@ -30,8 +31,8 @@
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
-  background: var(--bg);
-  background: linear-gradient(to bottom, var(--bg), var(--border));
+  background: var(--primary);
+  background: linear-gradient(to bottom, var(--primary), var(--primary-shade));
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -42,7 +43,7 @@
   }
 }
 .whiteText{
-  color:var(--accent-bg);
+  color:var(--accent-light);
   text-shadow: 4px 4px var(--text);
 }
 
@@ -50,11 +51,12 @@
   :root {
     --text: #A9E4D7;
     --text-h: #A9E4D7;
-    --dropshadow: #664E88;
-    --bg: #285557;
-    --border: #38777a;
+    --primary: #285557;
+    --primary-shade: #38777a;
+    --primary-light: #183334;
     --accent: #4B3869;
-    --accent-bg: #290052;
+    --accent-shade: #664E88;
+    --accent-light: #290052;
     --footer-bg: black;
 
     --sans: fira-sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
@@ -62,8 +64,8 @@
     --mono: ui-monospace, Consolas, monospace;
   }
   .whiteText{
-    color:var(--accent-bg);
-    text-shadow: 4px 4px var(--border);
+    color:var(--accent-light);
+    text-shadow: 4px 4px var(--primary-shade);
   }
 
   #social .button-icon {
@@ -79,7 +81,7 @@ body {
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  /* border-inline: 1px solid var(--border); */
+  /* border-inline: 1px solid var(--primary-shade); */
   min-height: 100svh;
   display: flex;
   flex-direction: column;
@@ -94,7 +96,7 @@ h2 {
   font-family: var(--heading);
   font-weight: 1000;
   color: var(--text-h);
-  text-shadow: 4px 4px var(--dropshadow);
+  text-shadow: 4px 4px var(--accent-shade);
 }
 
 
@@ -114,13 +116,13 @@ h2 {
   @media (max-width: 1024px) {
     font-size: 36px;
   }
-  border-bottom: 2px solid var(--border);
+  border-bottom: 2px solid var(--primary-shade);
 }
 
 h3{
   font-family: var(--heading);
   color: var(--text-h);
-  text-shadow: 2px 2px var(--dropshadow);
+  text-shadow: 2px 2px var(--accent-shade);
   font-size: xx-large;
   margin-top: 0px;
   margin-bottom: 5px;

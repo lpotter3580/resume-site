@@ -4,6 +4,7 @@ import LinkButton from "./LinkButton";
 import NavLinksData from "../data/links.json";
 import getNavLinks from "../data/getNavLinks";
 import { FaBars } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function NavBar ({activeLink}) {
 
@@ -13,7 +14,7 @@ export default function NavBar ({activeLink}) {
     return (
         <>
         <header class="container">
-            <a href="#"><img alt="Logan Potter" src={imgUrl} id="icon" onclick="advanceImage()"></img></a>
+            <Link to="/"><img alt="Logan Potter" src={imgUrl} id="icon" onclick="advanceImage()"></img></Link>
             <nav class="desktop">
                 <ul class="container">
                     {navLinks}

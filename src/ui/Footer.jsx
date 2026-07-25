@@ -1,3 +1,4 @@
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import getNavLinks from "../data/getNavLinks";
 
 export default function Footer(){
@@ -7,9 +8,9 @@ export default function Footer(){
             <footer>
                 <h4>Logan Potter</h4>
                 <nav class="vertical">
-                    <a href="mailto: lpotter3580@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>lpotter3580@gmail.com</a>
-                    <a href="https://github.com/lpotter3580" target="_blank"><i class="fa-brands fa-github"></i>github</a>
-                    <a href="https://www.linkedin.com/in/lpotter3580/" target="_blank"><i class="fa-brands fa-linkedin"></i>linkedin</a>
+                    <a href="mailto: lpotter3580@gmail.com" target="_blank"><FaEnvelope/>lpotter3580@gmail.com</a>
+                    <a href="https://github.com/lpotter3580" target="_blank"><FaGithub/>github</a>
+                    <a href="https://www.linkedin.com/in/lpotter3580/" target="_blank"><FaLinkedin/>linkedin</a>
                 </nav>
                 <nav>
                     <ul class="container">

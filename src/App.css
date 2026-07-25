@@ -9,6 +9,8 @@ ul.container{
     gap: 40px
 }
 
+
+
 /* NavBar */
 
 header{
@@ -17,15 +19,15 @@ header{
     position:fixed;
     width: 100%;
     z-index: 100;
-    border-bottom: 5px solid var(--accent-bg);
+    border-bottom: 5px solid var(--accent-light);
 }
 header img{
-    border: 1px solid var(--border);
+    border: 1px solid var(--primary-shade);
 }
 header > a{
     margin: 15px;
-    border-left: 2px solid var(--border);
-    border-bottom: 2px solid var(--border);
+    border-left: 2px solid var(--primary-shade);
+    border-bottom: 2px solid var(--primary-shade);
     height: 102px;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -49,8 +51,8 @@ nav{
 /* LinkButton */
 
 li > a, .linkButton{
-    border: 2px solid var(--border);
-    background-color: var(--accent-bg);
+    border: 2px solid var(--primary-shade);
+    background-color: var(--accent-light);
     font-family: fira-sans;
     font-size: 18pt;
     padding: 25px;
@@ -67,9 +69,9 @@ li > a:hover, .linkButton:hover{
 }
 
 /* li > a.active, .linkButton:hover{
-    background-color: var(--border);
-    color: var(--accent-bg);
-    border: 2px solid var(--accent-bg);
+    background-color: var(--primary-shade);
+    color: var(--accent-light);
+    border: 2px solid var(--accent-light);
 } */
 
 a:hover{
@@ -77,15 +79,14 @@ a:hover{
     cursor: pointer;
 }
 a:visited{
-    color:var(--text);
     text-decoration: none;
 }
 h3{
     text-decoration: none;
 }
-a:visited:hover{
+/* a:visited:hover{
     color:bisque;
-}
+} */
 a > h3{
     /* text-decoration: underline; */
     &:hover{
@@ -111,7 +112,7 @@ main{
 
 .bubble{
     background: var(--accent);
-    border: 2px solid var(--accent-bg);
+    border: 2px solid var(--accent-light);
     border-radius: 75px;
     padding: 45px;
     transition: transform 0.1s;
@@ -127,7 +128,7 @@ main{
     margin-top: 50px;
 }
 img{
-    border: 2px solid var(--accent-bg);
+    border: 2px solid var(--accent-light);
     border-radius: 5px;
 }
 .project-size{
@@ -157,12 +158,12 @@ nav.vertical{
 footer h4, footer nav > a, footer nav > a:visited{
     color: var(--accent);
 }
-footer ul, footer nav a, footer h4{
+footer ul, footer nav > a, footer h4{
     margin-left: auto ;
     margin-right: auto;
     width: 80%;
 }
-footer nav a, footer h4{
+footer nav > a, footer h4{
     padding-left: 5px;
     border-left: 4px solid var(--accent);
     transition: 0.1s;
@@ -187,20 +188,23 @@ section.bubble{
 .hamburger-icon{
     margin: 15px;
     align-self:flex-end;
-    border: 4px solid var(--border);
-    color: var(--border);
+    border: 4px solid var(--primary-shade);
+    color: var(--primary-shade);
     border-radius: 10px;
     &:hover{
-        color: var(--dropshadow);
-        border: 4px solid var(--dropshadow);
-        background-color: var(--border);
+        color: var(--accent-shade);
+        border: 4px solid var(--accent-shade);
+        background-color: var(--primary-shade);
     }
+}
+nav a > *{
+    margin-right: 5px;
 }
 #hamburgerMenu{
     display: none;
     position:fixed;
     background-color: var(--accent);
-    border-bottom: 5px solid var(--accent-bg);
+    border-bottom: 5px solid var(--accent-light);
     width:100%;
     transform: translateY(152px);
     margin: 0;
@@ -212,7 +216,7 @@ section.bubble{
     footer h4, footer nav > a, footer nav > a:visited{
         color: var(--text);
     }
-    footer nav a, footer h4{
+    footer nav > a, footer h4{
         border-left: 4px solid var(--text);
     }
 }
@@ -321,5 +325,16 @@ section.bubble{
     .project-size{
         height: 120px;
         width: 150px;
+    }
+}
+.navActive{
+    color: var(--accent-light);
+    background-color: var(--text);
+    border-color: var(--accent-light);
+    &:hover{
+        color: var(--accent-light);
+        background-color: var(--text);
+        border-color: var(--accent-light);
+        cursor:default;
     }
 }
