@@ -200,6 +200,16 @@ section.bubble{
 nav a > *{
     margin-right: 5px;
 }
+.error404{
+    margin-top: 15%;
+    margin-bottom: 8%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.error404 h1{
+    text-align: left;
+}
 #hamburgerMenu{
     display: none;
     position:fixed;
