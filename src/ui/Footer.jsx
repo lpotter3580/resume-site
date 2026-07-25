@@ -12,11 +12,6 @@ export default function Footer(){
                     <a href="https://github.com/lpotter3580" target="_blank"><FaGithub/>github</a>
                     <a href="https://www.linkedin.com/in/lpotter3580/" target="_blank"><FaLinkedin/>linkedin</a>
                 </nav>
-                <nav>
-                    <ul class="container">
-                        {navLinks}
-                    </ul>
-                </nav>
             </footer>
         </>
     );
