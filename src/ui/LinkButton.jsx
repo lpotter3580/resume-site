@@ -1,7 +1,7 @@
 import { useState } from "react";
 import '../App.css';
 import { FaDownload, FaEnvelope } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function LinkButton({text, href, external}) {
     if(external){
@@ -25,7 +25,9 @@ export default function LinkButton({text, href, external}) {
         } 
         return (
             <>
-                <Link to={linkText} class="linkButton">{text}</Link>
+                <NavLink to={linkText}  className={({ isActive }) => 
+                    isActive ? "navActive linkButton" : "linkButton"
+                }>{text}</NavLink>
                 
             </>
         )

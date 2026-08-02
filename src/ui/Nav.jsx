@@ -4,16 +4,17 @@ import LinkButton from "./LinkButton";
 import NavLinksData from "../data/links.json";
 import getNavLinks from "../data/getNavLinks";
 import { FaBars } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function NavBar ({activeLink}) {
 
-    const imgUrl = new URL('/logan1.jpg', import.meta.url).href;
+    const imgUrl = new URL('/logo.png', import.meta.url).href;
 
     let navLinks = getNavLinks();
     return (
         <>
         <header class="container">
-            <a href="#"><img alt="Logan Potter" src={imgUrl} id="icon" onclick="advanceImage()"></img></a>
+            <Link to="/"><img alt="Logan Potter" src={imgUrl} id="icon" onclick="advanceImage()"></img></Link>
             <nav class="desktop">
                 <ul class="container">
                     {navLinks}

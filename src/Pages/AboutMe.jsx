@@ -38,7 +38,7 @@ export default function AboutMe(){
                             <p>
                                 Outside of class and work, I enjoy all things music, be it listening or making.
                                 I collect CDs, and I often will listen to my favorite albums as I work.
-                                I also play trombone with the RIT Pep Band at hockey games I am currently serving as their Treasurer for the 2026-27 academic year.
+                                I also play trombone with the RIT Pep Band at hockey games. I am currently serving as their Treasurer for the 2026-27 academic year.
                                 This affinity for music helps me be a more effective team player, as it builds empathy and connection with others, as well as helping me focus.
                             </p>
                             <p>
