@@ -6,6 +6,7 @@ import HomePage from './Pages/HomePage'
 import AboutMe from './Pages/AboutMe'
 import Footer from './ui/Footer'
 import NotFound from './Pages/notFound'
+import HobbiesPage from './Pages/OtherProjects'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage/>}></Route>
         <Route path="/about-me" element={<AboutMe/>}></Route>
+        <Route path="/hobbies" element={<HobbiesPage/>}></Route>
         <Route path="*" element={<NotFound/>}></Route>
       </Routes>
       <Footer/>

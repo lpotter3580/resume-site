@@ -9,7 +9,7 @@ nav ul.container{
 nav ul.container li{
     width: 15vw;
 }
-nav .linkButton, nav a{
+nav .linkButton{
     width: 100%;
     text-wrap: nowrap;
     font-size: 2vw;
