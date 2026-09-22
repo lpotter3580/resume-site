@@ -5,7 +5,7 @@
         "external":false
     },
     {
-        "href":"../assets/lpotter-resume.pdf",
+        "href":"/public/lpotter-resume.pdf",
         "text":"Resume",
         "external":true
     },
