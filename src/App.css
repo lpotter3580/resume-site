@@ -2,7 +2,17 @@
 ul.container{
     align-items: center;
     padding: 0;
-    gap: 200px;
+}
+nav ul.container{
+    gap:5vw;
+}
+nav ul.container li{
+    width: 15vw;
+}
+nav .linkButton, nav a{
+    width: 100%;
+    text-wrap: nowrap;
+    font-size: 2vw;
 }
 .container{
     display: flex;
@@ -254,11 +264,6 @@ footer nav > a:hover{
     .large{
         display: unset;   
     }
-}
-@media(max-width: 1500px){
-  ul.container{
-    gap: 40px;
-  }
 }
 @media(max-width: 1180px){
     li > a, .linkButton{

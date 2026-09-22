@@ -13,5 +13,10 @@
         "href":"",
         "text":"About Me",
         "external":false
+    },
+    {
+        "href":"",
+        "text":"Other Projects",
+        "external":false
     }
 ]
