@@ -14,6 +14,9 @@ nav .linkButton{
     text-wrap: nowrap;
     font-size: 2vw;
 }
+nav .linkButton svg{
+    height: 0.75em
+}
 .container{
     display: flex;
     gap: 40px
