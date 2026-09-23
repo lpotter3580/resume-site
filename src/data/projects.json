@@ -16,20 +16,31 @@
         "startDate":"Dec 2025",
         "endDate":"Present",
         "role":"Creator",
-        "skillsList":"React, JS, Vite, React-Router, CSS",
+        "skillsList":"React, JavaScript, Vite, React-Router, CSS",
         "imgUrl":"/sitecode.png",
         "altText":"The React code of this section of the website",
         "link":"#"
     },
     {
         "title":"WITR Library Project",
-        "description":"RIT's radio station, WITR 89.7, has the second largest privately owned CD and Vinyl collection in the state of New York. The Library Project aims to organize and label all of our CDs. As Librarian, I am in charge of cataloging every CD into our own database, as well as being one of two people involved in leading a team of volunteers organizing this collection.",
+        "description":"RIT's radio station, WITR 89.7, has the second largest privately owned CD and Vinyl collection in the state of New York. The Library Project aims to label, organize, and catalgue all of our CDs, and preserve all our vinyls. As Assistant Librarian, I am in charge of cataloging every CD into our own database, as well as being one of two people involved in leading a team of volunteers organizing this collection. We also have a collection of DAT recordings from the 90's that we are currently working to archive.",
         "startDate":"Sept 2026",
         "endDate":"Present",
         "role":"Assistant Librarian",
-        "skillsList":"TBD",
+        "skillsList":"Databases, Organization, C#, Volunteer Recruiting, Library Management",
         "imgUrl":"/library.png",
         "altText":"Library shelves stacked with CDs",
+        "link":null
+    },
+    {
+        "title":"Howe Caverns Poster",
+        "description":"This was my final project for New Media Design Digital Survey I. We were challenged to make a poster mimicking the style of the National Park posters for a place that doesn't currently have one. I chose Howe Caverns because it let me experiment with perspective, having the visitor center on top above the cave in a side view. The poster layout was disigned by compositing real images of the cave together, and then vector graphics were drawn to fit the visible shapes and stylize the image.",
+        "startDate":"Apr 2026",
+        "endDate":"May 2026",
+        "role":"Solo Designer",
+        "skillsList":"Adobe Photoshop, Adobe Illustrator, Vector Graphics, Graphic Design, Photography",
+        "imgUrl":"/cavernsposter.png",
+        "altText":"A national parks-style poster of Howe's Caverns in Eastern New York, with the cavern visibile below the welcome center.",
         "link":null
     }
 ]
