@@ -5,13 +5,18 @@
         "external":false
     },
     {
-        "href":"../assets/lpotter-resume.pdf",
+        "href":"/public/lpotter-resume.pdf",
         "text":"Resume",
         "external":true
     },
     {
         "href":"",
         "text":"About Me",
+        "external":false
+    },
+    {
+        "href":"",
+        "text":"Hobbies",
         "external":false
     }
 ]

@@ -31,7 +31,7 @@ export default function HomePage(){
             </p>
             <div class="container buttons">
                 <LinkButton text="Email me!" href="mailto:lpotter3580@gmail.com" external={true}/>
-                <LinkButton text="Resume" href="/lpotter-resume.pdf" external={true}/>
+                <LinkButton text="Resume" href="/public/lpotter-resume.pdf" external={true}/>
             </div>
         </section>
 
