@@ -1,35 +1,38 @@
 [
     {
-        "title":"echoes VIP",
-        "description":"echoes is a Vertically Integrated Project at RIT. I am a web developer, meaning I help add new features to their website and help fix bugs as they come up. I work part time for course credit and can work on whatever part of the website I want to. This past semester, I created their brand guide, a page to show off current opportunities in the project, helped implement images into their game pages, and updated the web documentation.",
+        "title":"RIT Pep Band",
+        "description":"RIT Pep Band is a band that plays at NCAA D1 RIT Hockey games as well as other sporting events in the Rochester area, occasionally. We contribute to one of the best atmospheres in college hockey and have a great time hyping up the crowd. I play trombone and am Treasurer of the band for the 2026-27 school year. I manage the band's accounting book and inventory, as well as running fundraising and repairs.",
+        "startDate":"Aug 2025",
+        "endDate":"Present",
+        "role":"Trombonist, Treasurer",
+        "imgUrl":"/pepband.jpg",
+        "altText":"Eboard of RIT Pep Band tabling at Club Fair, Logan is in the bottom left"
+    },
+    {
+        "title":"RIT Improv",
+        "description":"RIT Improv runs biweekly improv workshops open to any students of any skill level, as well as free improv comedy shows every other friday night. I have participated in 4 myself, but I mostly just go to workshops as a fun way to unwind and learn to think on my feet. Improv is both a useful everyday soft skill AND it's fun.",
+        "startDate":"Aug 2025",
+        "endDate":"Present",
+        "role":"Member",
+        "imgUrl":"/improv.png",
+        "altText":"Logan and another improviser mid-scene"
+    },
+    {
+        "title":"FM Radio Show",
+        "description":"I run an FM radio show called Tales From The CD Shelf every Tuesday from 3:30PM to 5:30PM on WITR 89.7FM in Rochester. It's a fun little show where I show off CDs that I personally own and why I own them. Mostly, it's an excuse to practice public speaking and show off my music taste.",
+        "startDate":"Aug 2026",
+        "endDate":"Present",
+        "role":"DJ",
+        "imgUrl":"/radio.png",
+        "altText":"Logan in the FM studio with two guests"
+    },
+    {
+        "title":"RIT Game Symphony Orchestra",
+        "description":"RIT has an orchestra of around 200 members dedicated to playing video game music. I am a member because the difficulty of the music pushes me to be better at trombone. I also run a Small Ensemble every semester, which is where people get together groups of 2-15 musicians to play a specific video game song. I arrange the music for my own ensembles as a hobby. Fall 2026 I am running a song from Skylanders: SWAP Force, which is a game I played as a small child.",
         "startDate":"Jan 2026",
         "endDate":"Present",
-        "role":"Web Designer/Developer",
-        "skillsList":"Svelte, Tailwind CSS, JS, Vite, NodeJS, Agile Methodology",
-        "imgUrl":"/echoes-site.png",
-        "altText":"Front page of the echoes Website",
-        "link":"https://www.echoes-vip.org"
-    },
-    {
-        "title":"Portfolio Website",
-        "description":"This site was created as a project to help me teach myself how to use React and style websites better. I built the entire thing from scratch using react with vite and javascript. Eventually, I hope to add a Games section to show off more personal projects made in react.",
-        "startDate":"Dec 2025",
-        "endDate":"Present",
-        "role":"Creator",
-        "skillsList":"React, JS, Vite, React-Router, CSS",
-        "imgUrl":"/sitecode.png",
-        "altText":"The React code of this section of the website",
-        "link":"#"
-    },
-    {
-        "title":"WITR Library Project",
-        "description":"RIT's radio station, WITR 89.7, has the second largest privately owned CD and Vinyl collection in the state of New York. The Library Project aims to organize and label all of our CDs. As Librarian, I am in charge of cataloging every CD into our own database, as well as being one of two people involved in leading a team of volunteers organizing this collection.",
-        "startDate":"Sept 2026",
-        "endDate":"Present",
-        "role":"Assistant Librarian",
-        "skillsList":"TBD",
-        "imgUrl":"/library.png",
-        "altText":"Library shelves stacked with CDs",
-        "link":null
+        "role":"Trombonist, Small Ensemble Lead",
+        "imgUrl":"/gso.png",
+        "altText":"A rehearsal of Game Symphony Orchestra"
     }
 ]

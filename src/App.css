@@ -19,7 +19,9 @@ nav .linkButton{
     gap: 40px
 }
 
-
+p.bubble{
+    max-width: 40ch;
+}
 
 /* NavBar */
 
