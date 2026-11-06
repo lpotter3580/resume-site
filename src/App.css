@@ -144,7 +144,7 @@ main{
 }
 
 .spaceAbove{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 img{
     border: 2px solid var(--accent-light);

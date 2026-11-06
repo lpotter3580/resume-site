@@ -15,7 +15,7 @@
 :root {
   --text: #290052;
   --text-h: #290052;
-  --primary: #664E88;
+  --primary: #6a4999;
   --primary-shade: #4B3869;
   --primary-light: #876dab;
   --accent: #63B4B8;
@@ -51,8 +51,8 @@
   :root {
     --text: #A9E4D7;
     --text-h: #A9E4D7;
-    --primary: #285557;
-    --primary-shade: #38777a;
+    --primary: #48989d;
+    --primary-shade: #285557;
     --primary-light: #183334;
     --accent: #4B3869;
     --accent-shade: #664E88;
