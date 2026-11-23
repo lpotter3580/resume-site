@@ -11,15 +11,26 @@
         "link":"https://www.echoes-vip.org"
     },
     {
-        "title":"Portfolio Website",
-        "description":"This site was created as a project to help me teach myself how to use React and style websites better. I built the entire thing from scratch using react with vite and javascript. Eventually, I hope to add a Games section to show off more personal projects made in react.",
-        "startDate":"Dec 2025",
-        "endDate":"Present",
-        "role":"Creator",
-        "skillsList":"React, JavaScript, Vite, React-Router, CSS",
-        "imgUrl":"/sitecode.png",
-        "altText":"The React code of this section of the website",
-        "link":"#"
+        "title":"Synonym Web",
+        "description":"I made this project as part of a Web Development class to learn how to use APIs. The webpage calls the Merriam-Webster Thesaurus API to return a list of synonyms for any given word. The page then makes a game out of it by asking users to input a start and end word and then try to get from one word to another by connecting mutual synonyms. I made this in about two weeks and it taught me a lot about JavaScript and using it to call and parse results from an API using AJAX principles.",
+        "startDate":"Nov 2026",
+        "endDate":"Nov 2026",
+        "role":"Solo Developer",
+        "skillsList":"APIs, AJAX, JavaScript, CSS, Layout Design",
+        "imgUrl":"/synonymweb.png",
+        "altText":"Thesaurus search results displayed on a webpage, with search history on the left.",
+        "link":"https://people.rit.edu/lcp3352/235/project2"
+    },
+    {
+        "title":"A Shrimp In Space",
+        "description":"This was a game I worked on as part of a 48 hour game jam called Roll Your Fate from November 13-15, 2026. The game is an idle ship-building game where players link components of a spaceship to produce resources to buy more spaceship parts. I did all the UI for this game. I designed a mockup for the UI in Figma (pictured) and then implemented it in Godot in 48 hours. I actually learned how to do UI in Godot during the time period for this game jam. This was my first game jam and first time working in any game engine and I'm very proud of how it turned out.",
+        "startDate":"Nov 2026",
+        "endDate":"Nov 2026",
+        "role":"UI Designer",
+        "skillsList":"UI, Game Engines, Figma, Godot, Adobe Illustrator",
+        "imgUrl":"/shrimpinspacemockup.png",
+        "altText":"Game UI with a metallic looking panel on the right side with a shop menu displayed on it.",
+        "link":"https://emmar-rit.itch.io/space-shrimp"
     },
     {
         "title":"WITR Library Project",

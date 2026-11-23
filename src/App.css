@@ -134,6 +134,7 @@ main{
     border-radius: 75px;
     padding: 45px;
     transition: transform 0.1s;
+    filter: drop-shadow(10px 10px 10px var(--primary-shade));
 }
 .linkButton{
     transition: transform 0.1s;
@@ -144,7 +145,7 @@ main{
 }
 
 .spaceAbove{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 img{
     border: 2px solid var(--accent-light);
@@ -375,3 +376,4 @@ footer nav > a:hover{
         cursor:default;
     }
 }
+

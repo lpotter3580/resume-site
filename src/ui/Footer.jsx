@@ -1,4 +1,4 @@
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaItchIo, FaLinkedin } from "react-icons/fa";
 import getNavLinks from "../data/getNavLinks";
 
 export default function Footer(){
@@ -11,6 +11,7 @@ export default function Footer(){
                     <a href="mailto: lpotter3580@gmail.com" target="_blank"><FaEnvelope/>lpotter3580@gmail.com</a>
                     <a href="https://github.com/lpotter3580" target="_blank"><FaGithub/>github</a>
                     <a href="https://www.linkedin.com/in/lpotter3580/" target="_blank"><FaLinkedin/>linkedin</a>
+                    <a href="https://lpotter3580.itch.io/" target="_blank"><FaItchIo/>itch.io</a>
                 </nav>
             </footer>
         </>
